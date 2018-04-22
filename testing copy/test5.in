@@ -1,0 +1,5 @@
+load students;
+load trial;
+select students.SID as car, trail.name as dog from students, trial where students.SID > '104';
+print trial;
+exit;

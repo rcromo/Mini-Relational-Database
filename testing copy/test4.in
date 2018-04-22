@@ -1,0 +1,3 @@
+load students;
+select students.SID as car from students;
+exit;
